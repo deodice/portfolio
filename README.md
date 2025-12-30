@@ -1,31 +1,68 @@
-# Data Science Portfolio
+# Data Science & Analytics Portfolio
 
-This repository contains data science and analytics projects demonstrating skills in:
-- Exploratory Data Analysis (EDA)
-- Data cleaning and feature engineering
-- Statistical analysis
-- Predictive modeling
-- Python (pandas, numpy, matplotlib, seaborn, scikit-learn)
+This repository contains a curated collection of data science and analytics projects demonstrating
+end-to-end analytical workflows, business-focused insights, and applied statistical modeling.
+The projects emphasize translating data into actionable recommendations for decision-makers.
 
-## Projects
+## Core Skills Demonstrated
+- Exploratory Data Analysis (EDA) and data storytelling
+- Data cleaning, feature engineering, and validation
+- Statistical analysis and predictive modeling
+- Business problem framing and impact assessment
+- Communicating insights through clear visuals and narratives
+
+## Technical Stack
+- **Programming:** Python (pandas, numpy, matplotlib, seaborn, scikit-learn, nltk)
+- **Databases:** SQL (relational database design and querying)
+- **Analytics:** Classification, text mining, feature engineering
+- **Tools:** Jupyter Notebook, GitHub, Kaggle datasets
+
+---
+
+## Featured Projects
 
 ### 📦 E-Commerce Shipping Analysis
-**Goal:** Identify factors that influence on-time delivery performance.
+**Objective:** Identify key drivers of late deliveries and evaluate factors influencing on-time
+delivery performance in a large-scale e-commerce setting.
 
-**Skills & Tools:**
-- Python
-- pandas, numpy
-- matplotlib, seaborn
-- Logistic Regression
+**Highlights:**
+- Conducted exploratory data analysis on customer, product, and logistics features
+- Evaluated the impact of shipping mode, warehouse block, product attributes, and discounts
+- Built classification models to predict delivery delays
+- Translated findings into operational insights for logistics optimization
 
-**Key Insights:**
-- Shipping mode and warehouse block strongly impact delivery performance
-- Certain product categories are more prone to delays
+**Skills Applied:**  
+EDA, feature engineering, binary classification, business insights
 
-📄 Notebook: `e-commerce-shipping-analysis.ipynb`
+📁 Project Folder: `e-commerce-shipping-analysis/`
+
+---
+
+## Projects in Progress
+
+### 🐦 Social Media Text Mining (NLP)
+- Text preprocessing and tokenization using NLTK
+- Sentiment analysis and keyword extraction from tweets
+- Identification of thematic trends and customer sentiment signals
+
+### 🚲 Bike Store Relational Database & SQL Analysis
+- Relational database schema design for a retail bike store
+- SQL queries for sales performance, inventory tracking, and customer behavior
+- Business-driven reporting and insights derived from structured data
+
+---
+
+## Why This Portfolio
+This portfolio is designed to reflect how data science is applied in real-world business environments:
+- Framing ambiguous problems into analytical questions
+- Working with imperfect, real datasets
+- Balancing technical rigor with practical decision-making needs
+
+The focus is not just on building models, but on **why the analysis matters** and **how insights can be used**.
 
 ---
 
 ## About Me
 MBA | Master of Applied Data Science  
-Interested in data science, analytics, and business insights.
+Background in business strategy and applied analytics, with a strong interest in using data to
+improve operational performance and inform strategic decisions.
