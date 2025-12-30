@@ -1,9 +1,31 @@
-e-commerce-shipping-analysis/README.md
+# E-Commerce Shipping Analysis
 
-# Dataset Overview
+## Business Problem
+Late deliveries increase customer dissatisfaction, refund requests, and operational costs.
+In large-scale e-commerce operations, even small increases in delivery delays can have
+significant downstream impacts on customer retention and profitability.
 
-This project uses the Customer Analytics (E-Commerce Shipping) dataset from Kaggle, which contains transactional, customer, product, and logistics data for individual e-commerce orders. The dataset is designed to support analysis of on-time delivery performance, a critical metric for customer satisfaction and operational efficiency in large-scale e-commerce systems.
-Each row represents a single customer order, with features describing customer behavior, shipping configuration, product characteristics, and promotional activity. The primary outcome variable indicates whether an order was delivered on time.
+This analysis identifies key drivers of shipping delays and provides data-driven insights
+to improve on-time delivery performance.
+
+## Impact
+The findings from this analysis can help logistics and operations teams:
+- Optimize shipping mode selection
+- Identify high-risk product categories
+- Improve warehouse-level performance
+- Reduce delivery-related customer complaints and refunds
+
+---
+
+## Dataset Overview
+This project uses the **Customer Analytics (E-Commerce Shipping)** dataset from Kaggle, which
+contains transactional, customer, product, and logistics data for individual e-commerce orders.
+The dataset is designed to support analysis of on-time delivery performance, a critical metric
+for customer satisfaction and operational efficiency in large-scale e-commerce systems.
+
+Each row represents a single customer order, with features describing customer behavior,
+shipping configuration, product characteristics, and promotional activity. The primary outcome
+variable indicates whether an order was delivered on time.
 
 ## Analytical Focus
 The dataset enables:
@@ -13,18 +35,20 @@ The dataset enables:
 - Operational recommendations grounded in data
 
 ## Feature Categories
-- Customer Behavior: customer care calls, customer rating, prior purchases
-- Shipping & Operations: shipping mode, warehouse block
-- Product Attributes: product importance, product weight, product cost
-- Promotions: discount offered
-- Target Variable: on-time delivery indicator (Reached.on.Time_Y.N)
+- **Customer Behavior:** customer care calls, customer rating, prior purchases  
+- **Shipping & Operations:** shipping mode, warehouse block  
+- **Product Attributes:** product importance, product weight, product cost  
+- **Promotions:** discount offered  
+- **Target Variable:** on-time delivery indicator (`Reached.on.Time_Y.N`)
 
 ## Why This Dataset Matters
-This dataset closely mirrors real-world e-commerce logistics challenges, making it well-suited for demonstrating:
+This dataset closely mirrors real-world e-commerce logistics challenges, making it well-suited
+for demonstrating:
 - Business-focused data storytelling
 - Practical feature engineering
 - Predictive modeling with operational relevance
-- It provides a strong foundation for showcasing end-to-end data science skills in a portfolio setting.
+- End-to-end data science workflows suitable for production analytics teams
 
 ## Source
-Kaggle: Customer Analytics (E-Commerce Shipping Data) - https://www.kaggle.com/datasets/prachi13/customer-analytics 
+Kaggle: Customer Analytics (E-Commerce Shipping Data)  
+https://www.kaggle.com/datasets/prachi13/customer-analytics
