@@ -5,7 +5,7 @@
 This project analyzes a normalized relational database for a multi-store bike retailer to uncover revenue drivers, customer behavior patterns, and geographic trends. It mirrors real-world analytics workflows by using **SQL for heavy lifting** (data extraction/metrics) and **Python for visualization and storytelling**.
 
 ## 🏗️ Data Architecture (ERD)
-![image.png](image.png)
+<img width="742" height="602" alt="image" src="https://github.com/user-attachments/assets/73ffeb20-d62d-405b-a9f9-edb06cc008bc" />
 
 The database follows a normalized schema including `customers`, `orders`, `products`, `brands`, and `stores`. Understanding this architecture was key to performing complex multi-table joins for metrics like CLV.
 
@@ -16,11 +16,13 @@ The database follows a normalized schema including `customers`, `orders`, `produ
 
 ## 📊 Key Visualizations
 ### 1. Regional Customer Density (Folium)
-*Insert Screenshot of Folium Heatmap*
+<img width="1442" height="641" alt="image" src="https://github.com/user-attachments/assets/4696abf9-0f55-4fb0-8c99-f5a03f553729" />
+
 This map identifies geographic "hotspots," allowing the business to visualize where its market share is strongest versus where a physical presence is lacking.
 
 ### 2. Store Performance Trends
-*Insert Screenshot of Matplotlib Revenue Chart*
+<Figure size 1200x600 with 1 Axes><img width="1069" height="528" alt="image" src="https://github.com/user-attachments/assets/bf3a7503-3d7d-413e-b1ba-2ccd650a6f31" />
+
 A time-series analysis comparing revenue across the three store locations, highlighting seasonal fluctuations and growth trajectories.
 
 ## 🚀 Key Insights
