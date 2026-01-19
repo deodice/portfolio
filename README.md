@@ -1,3 +1,8 @@
+## 📌 Reports Without Code Blocks
+All reports in this portfolio, but no code blocks included in the outputs:
+➡️ [View Business Reports](./business-reports)
+
+
 # Data Science & Analytics Portfolio
 
 This repository contains a curated collection of data science and analytics projects demonstrating
